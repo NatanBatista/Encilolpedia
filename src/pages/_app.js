@@ -4,9 +4,11 @@ import MainContainer from '../../components/MainContainer'
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <MainContainer>
-        <Component {...pageProps}/>
-      </MainContainer>
+    <main>
+        <MainContainer>
+          <Component {...pageProps}/>
+        </MainContainer>
+    </main>
     </>
   )
   
