@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+.content a:hover {
+    text-decoration:underline;
+}
+
 
 .copyright {
     display: flex;
