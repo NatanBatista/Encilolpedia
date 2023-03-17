@@ -1,12 +1,15 @@
-.home_page_section_image {
-  background-color: #32322C;
-  height: 600px;
+.home_section_conteudo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
+
 .home_page_image_container {
   display: flex;
   justify-content: center;
   height: 500px;
-  background-color: #ffff00;
   padding-top: 50px;  
   position: relative;
 }
@@ -30,24 +33,4 @@
 
 .home_page_logo:hover {
   transform: scale(1.2);
-}
-.text_about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.text_about p {
-  margin: 1em;
-  background-color: #ffff006e;
-  padding: 1em;
-  height: 300px;
-  width: 300px;
-  overflow: clip;
-}
-
-.home_section_conteudo {
-  margin-top: 10vh;
-
 }
