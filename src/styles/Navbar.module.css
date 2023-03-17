@@ -7,15 +7,14 @@
 }
 
 .navbar a {
-  color: white;
-  text-decoration: none;
   cursor: default;
-  transition: .3s;
-  text-decoration: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  transition: .5s;
 }
 
 .navbar a:hover {
-  color: #999;
+  color: #999999;
 }
 
 .navbar div {
@@ -24,19 +23,18 @@
 }
 
 
-.select_itens_bar a{
+.select_itens_bar{
   color: white;
-  padding-left: 1em;
-  padding-right: 1em;
+  text-decoration: none;
 }
 
-.select_itens_bar a:hover {
+.select_itens_bar:hover {
   border-top: 1px solid wheat;
 }
 
 .button_login {
   padding: 8px 16px;
-  background-color: #80808033;
+  background-color: #ffffffff;
   border-radius: 10px;
   margin-right: 1em;
 }
