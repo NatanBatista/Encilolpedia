@@ -1,0 +1,29 @@
+.section_footer {
+    background-color: #111111;
+    color: white;
+    padding-top: 5em;
+    padding-bottom: 10px;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3em;
+    
+}
+
+.content li{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
