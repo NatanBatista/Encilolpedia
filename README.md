@@ -1,38 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Encilopédia de League of Legends
 
-## Getting Started
+Este projeto é uma enciclopédia de League of Legends criada usando Next.js, uma estrutura de desenvolvimento web baseada em React. Esta enciclopédia é uma compilação abrangente de informações sobre o jogo League of Legends e seu universo, incluindo personagens, habilidades, itens, estratégias e outras informações relevantes.
 
-First, run the development server:
+![homePage](https://user-images.githubusercontent.com/71360760/226118669-51d863d4-da91-4791-80fa-689b53edebb8.gif)
 
+## Como executar o projeto
+
+Para executar este projeto em seu computador local, siga as instruções abaixo:
+
+1. Certifique-se de que o [Node.js](https://nodejs.org/) e o [npm](https://www.npmjs.com/) estão instalados em seu computador.
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+node -v
+npm -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Faça o clone deste repositório em sua máquina local:
+```bash
+git clone https://github.com/NatanBatista/encilolpedia.git
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Entre na pasta do projeto:
+```bash
+cd encilolpedia
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Instale as dependências do projeto: 
+```bash
+npm install
+```
+5. Execute o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+6. Abra o navegador e acesse http://localhost:3000 para visualizar a enciclopédia de League of Legends.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Licença
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está sob a licença MIT.
