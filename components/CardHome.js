@@ -1,15 +1,9 @@
 import styles from '@/styles/CardHome.module.css'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 
 export default function CardHome({imageUrl, title, content}) {
     
     return (
         <>
-            <Head>
-                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-            </Head>
             <div className={styles.card_body}>
                 <div className={styles.card_body_background} style={{ backgroundImage: `url(${imageUrl})` }}> 
                     
