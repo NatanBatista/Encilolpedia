@@ -9,12 +9,12 @@ export default function Footer(){
                     <div className={styles.content}>
                         <span> Contato </span>
                         <li>
-                            <Link href={'https://github.com/NatanBatista/encilolpedia'} target="_blank" rel="noopener noreferrer"> 
+                            <Link href={'https://github.com/NatanBatista/encilolpedia'} target='_blank' rel='noopener noreferrer'> 
                                 Github
                             </Link>
                         </li>
                         <li> 
-                            <Link href={'https://www.google.com'} target="_blank" rel="noopener noreferrer"> 
+                            <Link href={'https://www.google.com'} target='_blank' rel='noopener noreferrer'> 
                                 Email
                             </Link>
                         </li>
@@ -23,12 +23,12 @@ export default function Footer(){
                     <div className={styles.content}>
                         <span > Tecnologias </span>
                         <li>
-                            <Link href={'https://nextjs.org'} target="_blank" rel="noopener noreferrer"> 
+                            <Link href={'https://nextjs.org'} target='_blank' rel='noopener noreferrer'> 
                                 Nextjs 13
                             </Link>
                         </li>
                         <li>
-                            <Link href={'https://rubyonrails.org'} target="_blank" rel="noopener noreferrer"> 
+                            <Link href={'https://rubyonrails.org'} target='_blank' rel='noopener noreferrer'> 
                                 Ruby on Rails
                             </Link>
                         </li>

@@ -7,7 +7,7 @@ export default function NavBar() {
         <> 
         <ul className={styles.navbar}>
             <div >
-                <Link href={'/'}><Image src="/icons/lol_icon.png" alt="Lol Logo" width={35} height={35} priority /></Link> 
+                <Link href={'/'}><Image src='/icons/lol_icon.png' alt='Lol Logo' width={35} height={35} priority /></Link> 
                 <Link className={styles.select_itens_bar} href={'/campeoes'}> Campeões</Link>
                 <Link className={styles.select_itens_bar} href={'/itens'}> Itens</Link>
                 <Link className={styles.select_itens_bar}href={'/runas'}> Runas </Link>

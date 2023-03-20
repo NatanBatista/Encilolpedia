@@ -1,7 +1,6 @@
 import styles from '@/styles/CardHome.module.css'
 
 export default function CardHome({imageUrl, title, content}) {
-    
     return (
         <>
             <div className={styles.card_body}>
@@ -11,7 +10,7 @@ export default function CardHome({imageUrl, title, content}) {
 
                         <div className={styles.push_card}>
 
-                            <i class="material-icons">expand_less</i>
+                            <i class='material-icons'>expand_less</i>
 
                         </div>
 
