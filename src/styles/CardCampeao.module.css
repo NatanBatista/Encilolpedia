@@ -1,0 +1,13 @@
+.card_champs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 282px;
+    width: 250px;
+    background-color: black;
+    margin: 10px;
+}
+
+.card_title {
+    color: white;
+}
