@@ -1,6 +1,6 @@
 import styles from '@/styles/CardHome.module.css'
 
-export default function CardHome({imageUrl, title, content}) {
+export default function CardHome({ imageUrl, title, content }) {
     return (
         <>
             <div className={styles.card_body}>
