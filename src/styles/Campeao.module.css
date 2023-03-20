@@ -1,0 +1,121 @@
+.setion_up {
+    cursor: default;
+}
+
+.container_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 70px 0px 140px;
+    color: white;
+    gap: 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+}
+.title strong {
+    color: black;
+    font-size: 55px;
+}
+
+.title_content { 
+    max-width: 460px;
+    padding: 0px 10%;
+}
+
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    height: 45px;
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 25vh;
+}
+
+
+.search_by_name {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 250px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+
+.search_by_name::before {
+    content: "\007C"; 
+    position: absolute;
+    top: 21%;
+    left: 100%;
+    transition: .3s;
+}
+
+.search_by_name:hover::before {
+    content: "\007C";
+    color: rgb(153, 153, 153);
+    transform: scaleY(3.1);
+}
+
+
+.search_by_class {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 10px;
+    height: 100%;
+}
+
+.search_by_class ul {
+    cursor: default;
+    color: gray;
+}
+
+.search_by_class ul:hover {
+    color: rgb(0, 0, 0);
+    border-top: 2px solid rgb(192, 158, 5);
+}
+
+.search_by_class ul:active {
+    color: rgb(0, 0, 0);
+    border-top: 2px solid rgb(192, 158, 5);
+    
+}
+
+.search_by_rank {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 250px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.search_by_rank:after {
+    content: "\007C"; 
+    position: absolute;
+    top: 21%;
+    right: 100%;
+    transition: .3s;
+}
+
+.search_by_rank:hover::after {
+    content: "\007C";
+    color: rgb(153, 153, 153);
+    transform: scaleY(3.1);
+}
