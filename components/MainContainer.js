@@ -8,5 +8,5 @@ export default function MainContainer(props) {
       <div> {props.children} </div>
       <Footer/>
     </>
-  )
+  );
 }
