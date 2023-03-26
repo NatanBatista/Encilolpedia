@@ -29,18 +29,21 @@
 }
 
 
+
 .searchBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
+    min-width: 45vh;
     margin-left: 25vh;
     margin-right: 25vh;
-    height: 45px;
     border: 2px solid rgb(153, 153, 153);
     border-radius: 10px;
     background-color: white;
     margin-bottom: 25vh;
 }
+
 
 
 .search_by_name {
@@ -59,15 +62,15 @@
 .search_by_name::before {
     content: "\007C"; 
     position: absolute;
-    top: 21%;
-    left: 100%;
+    top: 30%;
+    left: 90%;
     transition: .3s;
 }
 
 .search_by_name:hover::before {
     content: "\007C";
     color: rgb(153, 153, 153);
-    transform: scaleY(3.1);
+    transform: scaleY(2);
 }
 
 
@@ -95,6 +98,12 @@
     
 }
 
+
+.search_by_select_class {
+    display: flex;
+    flex-direction: row;
+}
+
 .search_by_rank {
     position: relative;
     display: flex;
@@ -109,13 +118,54 @@
 .search_by_rank:after {
     content: "\007C"; 
     position: absolute;
-    top: 21%;
-    right: 100%;
+    top: 30%;
+    right: 90%;
     transition: .3s;
 }
 
 .search_by_rank:hover::after {
     content: "\007C";
     color: rgb(153, 153, 153);
-    transform: scaleY(3.1);
+    transform: scaleY(2);
+}
+
+
+
+
+
+@media only screen and (min-width: 1270px) and (max-width: 1500px) {
+    .searchBar {
+        margin-left: 15vh;
+        margin-right: 15vh;
+    }
+    
+}
+@media only screen and (max-width: 1270px) {
+    .searchBar {
+        margin-left: 0vh;
+        margin-right: 0vh;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 801px) {
+    
+    .search_by_select_class {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .search_by_class {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    .search_by_select_class {
+        font-size: 14px;
+    }
 }
