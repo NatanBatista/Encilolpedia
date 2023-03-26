@@ -47,6 +47,12 @@ export default function Campeaos() {
                             TANQUES
 						</ul>
 					</div>
+					<div className={styles.search_by_select_class}>
+						<span>
+							TODAS AS FUNÇÕES
+						</span>
+						<i className='material-icons'>expand_more</i>
+					</div>
 					<div className={styles.search_by_rank} >
 						<span>Dificuldade</span>
 						<i className='material-icons'>expand_more</i>
