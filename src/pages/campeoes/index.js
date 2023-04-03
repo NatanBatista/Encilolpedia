@@ -1,5 +1,6 @@
 import styles from "@/styles/Campeao.module.css";
 import React from "react";
+import CardCampeao from "../../../components/CardCampeao";
 
 export default function Campeaos() {
 	return (
@@ -58,6 +59,15 @@ export default function Campeaos() {
 						<i className='material-icons'>expand_more</i>
 					</div>
 				</div>
+			</section>
+
+			<section className={styles.section_card_champs}>
+				<CardCampeao imageUrl="/images/aatrox.jpg" champName="Aatrox"/>
+				<CardCampeao imageUrl="/images/ahri.jpg" champName="Ahri"/>
+				<CardCampeao imageUrl="/images/akali.jpg" champName="Akali"/>
+				<CardCampeao imageUrl="/images/akshan.jpg" champName="Akshan"/>
+				<CardCampeao imageUrl="/images/alistar.jpg" champName="Alistar"/>
+				<CardCampeao imageUrl="/images/amumu.jpg" champName="Amumu"/>		
 			</section>
 		</>
 	);
