@@ -16,7 +16,10 @@ export default function NavBar() {
 				<div>
 					<a className={styles.button_login}> Entrar</a>
 					<a className={styles.button_signup}> Cadastra-se</a>
+					<span className={styles.menu}> <i className='material-icons'>menu</i> </span>
+					
 				</div>
+				
 			</ul>
 			<div className={styles.divider_navbar}> </div>
 		</>
