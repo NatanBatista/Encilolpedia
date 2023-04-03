@@ -34,3 +34,34 @@
 .home_page_logo:hover {
   transform: scale(1.2);
 }
+
+@media only screen and (max-width: 1000px) {
+  .home_page_image {
+    width: 640px;
+    height: 366px;
+  }
+
+  .home_page_logo {
+    top: 25%
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home_page_image {
+    width: 320px;
+    height: 183px;
+  }
+
+  .home_page_logo {
+    display: none;
+  }
+
+  .home_page_image_container {
+    height: 300px;
+  }
+
+  .home_section_conteudo {
+    margin-top: 0vh;
+  }
+  
+}
