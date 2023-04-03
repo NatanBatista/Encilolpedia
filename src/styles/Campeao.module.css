@@ -130,6 +130,11 @@
 }
 
 
+.section_card_champs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 
@@ -167,5 +172,34 @@
 @media only screen and (max-width: 534px) {
     .search_by_select_class {
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .search_by_name:after {
+        content: "\007C"; 
+        position: absolute;
+        top: 30%;
+        right: 90%;
+        transition: .3s;
+    }
+
+    .search_by_name:hover::after {
+        content: "\007C";
+        color: rgb(153, 153, 153);
+        transform: scaleY(2);
+    }
+    
+
+    .search_by_select_class {
+        display: none;
+    }
+
+    .search_by_rank {
+        display: none;
+    }
+
+    .searchBar {
+        justify-content: center;
     }
 }
