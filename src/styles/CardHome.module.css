@@ -48,3 +48,19 @@
 .card_content{
   font-size: 16px;
 }
+
+@media  only screen and (max-width: 400px){
+  .card_body_background {
+    height: 370px;
+    width: 250px;
+  }
+  
+  .card_content{
+    font-size: 12px;
+  }
+
+  .card_title {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
