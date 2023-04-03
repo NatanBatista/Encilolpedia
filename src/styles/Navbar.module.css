@@ -37,6 +37,7 @@
   background-color: #ffffffff;
   border-radius: 10px;
   margin-right: 1em;
+  color: black;
 }
 
 .button_login:hover {
@@ -58,4 +59,28 @@
   display: block;
   background-color: #333;
   padding: 1px;
+}
+
+.menu {
+  color: white;
+  font-size: 32px;
+}
+
+@media only screen and (min-width: 651px) {
+  .menu {display: none;}
+}
+
+@media only screen and (max-width: 650px) {
+  .select_itens_bar {
+    display: none;
+  }
+
+  .button_login {
+    display: none;
+  }
+
+  .button_signup {
+    display: none;
+  }
+
 }
