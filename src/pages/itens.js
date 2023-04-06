@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "@/styles/Itens.module.css";
 import Image from "next/image";
-import SearchBar from "../../components/searchBar";
 
 export default function Itens() {
 	const images = [
@@ -12,14 +11,7 @@ export default function Itens() {
 		{source : "/images/navori.jpeg", Name: "Navori"},
 		{source : "/images/quimiotank.jpeg", Name: "Quimiotanque"},
 	];
-
-	const items_search_bar = [
-		"TODOS",
-		"AP",
-		"AD",
-		"TANQUE",
-		"ASSASSINO"
-	];
+	
 	return (
 		<>
 			<section className={styles.section_title}>
