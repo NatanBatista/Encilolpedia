@@ -1,7 +1,25 @@
 import React from "react";
 import styles from "@/styles/Itens.module.css";
+import Image from "next/image";
+import SearchBar from "../../components/searchBar";
 
 export default function Itens() {
+	const images = [
+		{source : "/images/DançaMorte.jpeg", Name: "Dança da Morte"},
+		{source : "/images/luden.png", Name: "Eco de luden"},
+		{source : "/images/dancarinaFantasma.jpeg", Name: "Dançarina Fantasma"},
+		{source : "/images/Rabadon.jpeg", Name: "Rabadon"},
+		{source : "/images/navori.jpeg", Name: "Navori"},
+		{source : "/images/quimiotank.jpeg", Name: "Quimiotanque"},
+	];
+
+	const items_search_bar = [
+		"TODOS",
+		"AP",
+		"AD",
+		"TANQUE",
+		"ASSASSINO"
+	];
 	return (
 		<>
 			<section className={styles.section_title}>
@@ -32,6 +50,13 @@ export default function Itens() {
 					<p>
 						Existem também itens específicos para cada papel de personagem, como itens de suporte para personagens de suporte, itens de ataque crítico para atiradores e itens de resistência para tanques. A escolha de itens é fundamental para o sucesso em League of Legends, e é importante que os jogadores escolham sabiamente com base nas necessidades de seu personagem e na situação atual da partida.
 					</p>
+				</div>
+				<div className={styles.items}>
+					{
+						images.map(
+							(items, index) => <Image key={index} src={items.source} width={121} height={121} alt={items.Name}/>
+						)
+					}
 				</div>
 			</section>
 		</>
